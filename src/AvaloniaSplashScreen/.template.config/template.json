@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Rafael Souza",
+  "classifications": [ "Desktop", "Avalonia", "MVVM" ],
+  "identity": "AvaloniaSplashScreen.Template",
+  "name": "Avalonia Splash Screen App",
+  "shortName": "avalonia-splash",
+  "description": "Projeto Avalonia com Splash Screen animada e MVVM via CommunityToolkit",
+  "tags": {
+    "language": "C#",
+    "platform": "Cross-platform",
+    "projectType": "Avalonia",
+    "type": "project"
+  },
+  "sourceName": "AvaloniaSplashScreen",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "Target framework",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net9.0",
+          "description": ".NET 9.0"
+        },
+        {
+          "choice": "net8.0",
+          "description": ".NET 8.0"
+        }
+      ],
+      "defaultValue": "net9.0",
+      "replaces": "net9.0"
+    }
+  }
+}

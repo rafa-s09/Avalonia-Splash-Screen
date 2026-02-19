@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:Class="AvaloniaSplashScreen.View.SplashWindow"
+		Width="720" Height="360"
+		WindowStartupLocation="CenterScreen" SystemDecorations="None"
+		TransparencyLevelHint="Transparent" Background="Transparent"
+		Icon="/Assets/icon.ico" Title="SplashScreen">
+	<Border CornerRadius="14" Background="#2b2b2b" ClipToBounds="True" BorderBrush="#444" BorderThickness="0">
+		<Grid>
+			<Image Source="/Assets/splash.png" Stretch="Fill"/>
+			<StackPanel VerticalAlignment="Bottom">
+				<ProgressBar x:Name="prgLoading" Minimum="0" Maximum="100" Value="0" />
+			</StackPanel>
+		</Grid>
+	</Border>
+</Window>
