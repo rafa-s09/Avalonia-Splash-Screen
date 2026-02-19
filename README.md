@@ -5,16 +5,12 @@ Template de projeto Avalonia com Splash Screen animada e arquitetura MVVM.
 ## Instalação local
 
 ```bash
-dotnet new install ./AvaloniaSplashScreen.Template
+dotnet new install ./AvaloniaSplashScreen
 ```
 
 ## Uso
 
-```bash
-dotnet new avalonia-splash -n MeuProjeto
-```
-
-Ou pelo Visual Studio: **Criar novo projeto** → pesquise por **"Avalonia Splash"**.
+Pelo Visual Studio: **Criar novo projeto** → pesquise por **"Avalonia Splash Screen"**.
 
 ## Estrutura gerada
 
@@ -44,5 +40,5 @@ MeuProjeto/
 ## Desinstalar
 
 ```bash
-dotnet new uninstall AvaloniaSplashScreen.Template
+dotnet new uninstall AvaloniaSplashScreen
 ```
